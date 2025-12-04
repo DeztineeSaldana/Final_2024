@@ -165,6 +165,21 @@ This means that the null hypothesis that being infected with covid-19 is indepen
 
 The odds ratio is 1.9. This means that the female people who took the placebo were about 2 times more likely to get covid-19 than people who took the vaccine. This is significant. It also shows that the vaccine is more than likely effective. 
 
+
+```{r}
+effect <- Fsfish$p.value/(Fsfish$p.value +1)
+effectivenessF = Fsfish$estimate/(Fsfish$estimate +1)*100
+print(effectivenessF)
+```
+
+```{r}
+low=(Fsfish$conf.int[1]/(Fsfish$conf.int[1] +1))*100
+hi=(Fsfish$conf.int[2]/(Fsfish$conf.int[2] +1))*100
+options(digits=2)
+```
+
+## Effectiveness Confidence Interval `r low`  to `r hi`
+
 ## LGBTQ
 
 
