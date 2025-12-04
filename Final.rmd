@@ -255,6 +255,10 @@ options(digits=2)
 
 ## Effectiveness Confidence Interval `r low`  to `r hi`
 
+Seen in the area above is the effectiveness for the covid-19 vaccine for gays. It is important to know that if the effectiveness is above 50% that means that the vaccine is effect. Based on the interval that is spotted above, we can conclude that the vaccine is very effective in protecting gays from getting covid-19. 
+
+The odds ratio is approximately how effective the vaccine is. The odds ratio for the gays can be spotted as 81. The effectiveness confidence interval is about 69 to 89.88.
+
 ## Druggies
 
 
