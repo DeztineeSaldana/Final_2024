@@ -239,6 +239,22 @@ This means that the null hypothesis that being infected with covid-19 is indepen
 
 The odds ratio is 4.3. This means that the people who took the placebo were around 4 times more likely to get covid-19 than people who took the vaccine. This is very significant. It also shows that the vaccine is more than likely effective for gays. The odd ratio is bigger than both female and male. 
 
+
+```{r}
+effect <- gaysfish$p.value/(gaysfish$p.value +1)
+effectivenessgays = gaysfish$estimate/(gaysfish$estimate +1)*100
+print(effectivenessgays)
+```
+
+```{r}
+low=(gaysfish$conf.int[1]/(gaysfish$conf.int[1] +1))*100
+hi=(gaysfish$conf.int[2]/(gaysfish$conf.int[2] +1))*100
+options(digits=2)
+```
+
+
+## Effectiveness Confidence Interval `r low`  to `r hi`
+
 ## Druggies
 
 
