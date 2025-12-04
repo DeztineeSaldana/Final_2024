@@ -315,4 +315,18 @@ This means that the null hypothesis is rejected in favor of the alternative.
 
 The odds ratio is 0.087. This means that the people who took the placebo were almost 0.087 times more likely to get covid-19 than people who took the vaccine. This is very significant. It also shows that the vaccine is more than likely not effective. 
 
+```{r}
+effect <- drugfish$p.value/(drugfish$p.value +1)
+effectivenessdrug = drugfish$estimate/(drugfish$estimate +1)*100
+print(effectivenessdrug)
+```
+
+```{r}
+low=(drugfish$conf.int[1]/(drugfish$conf.int[1] +1))*100
+hi=(drugfish$conf.int[2]/(drugfish$conf.int[2] +1))*100
+options(digits=2)
+```
+
+## Effectiveness Confidence Interval `r low`  to `r hi`
+
 # Overall Results and Conclusions
