@@ -335,3 +335,13 @@ The odds ratio is approximately how effective the vaccine is. The odds ratio for
 
 
 # Overall Results and Conclusions
+
+The Covid-19 was pretty effective in protecting men against catching covid-19. The covid-19 effectiveness for the guys was 73.8. The effectiveness confidence interval is about 68.85 to 78.32. 
+
+The Covid-19 was effective in protecting woman against catching covid-19. The covid-19 effectiveness for the females was 65. The effectiveness confidence interval is about 59.8 to 69.92. 
+
+The Covid-19 was the most effective in protecting gays against catching covid-19. The covid-19 effectiveness for the gays was 81. The effectiveness confidence interval is about 69 to 89.88.
+
+The Covid-19 was not effective in protecting Drug users against catching covid-19. The covid-19 effectiveness was 8.04. The effectiveness confidence interval is about 2.65 to 17.86. It really isn't effective at all for drug users.
+
+In conclusion, It is really effective for the gays as well as the males. It is also pretty effective for the females. It is not recommended for drug users. 
