@@ -69,6 +69,10 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
+These numerical results show the actual percentages of the males that got covid-19 after they took the placebo or the vaccine. 
+
+The males that got covid-19 after taking the placebo was a huge value of 73.80%, compared to the percentage of people who got covid-19 after taking the vaccine (26.20%). Of the males that were okay, 50.01% of the men who took the placebo were fine, and 49.99% of the men who took the vaccine were fine. This shows that the covid-19 vaccine is effective in males if only 26.20% of the people who took the vaccine got covid-19. People who took the placebo got covid-19 a lot more. This is significant. 
+
 ## Females
 
 
