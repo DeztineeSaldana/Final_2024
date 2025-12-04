@@ -299,4 +299,14 @@ These numerical results show the actual percentages of the drug users that got c
 
 The drug users that got covid-19 after taking the placebo was a very small value of 8.3%, compared to the percentage of people who got covid-19 after taking the vaccine, which was very large (91.7%). Of the drug users that were okay, 51% of the drug users who took the placebo were fine, and 49% of the drug users who took the vaccine were fine. This shows that the covid-19 vaccine is ineffective in drug users if 91.7% of the people who took the vaccine got covid-19. People who took the placebo got covid-19 signficantly less. 
 
+
+### Inferential Results
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+drugfish <- fisher.test(table1)
+drugfish
+```
+
 # Overall Results and Conclusions
