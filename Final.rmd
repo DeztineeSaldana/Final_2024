@@ -149,6 +149,17 @@ These numerical results show the actual percentages of the females that got covi
 
 In confirmation with the numbers I approximated from the barplot,the females that got covid-19 after taking the placebo was a big value of 65%, compared to the percentage of people who got covid-19 after taking the vaccine (35%). Of the females that were okay, 50% of the women who took the placebo were fine, and 50% of the women who took the vaccine were fine. This shows that the covid-19 vaccine is effective in females if only 35% of the people who took the vaccine got covid-19. People who took the placebo got covid-19 a lot more. This is significant. 
 
+
+### Inferential 
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+Fsfish <- fisher.test(table1)
+Fsfish
+```
+
+
 ## LGBTQ
 
 
