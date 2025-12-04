@@ -223,6 +223,16 @@ These numerical results show the actual percentages of the gays that got covid-1
 
 In confirmation with the numbers I approximated from the barplot,the gays that got covid-19 after taking the placebo was a very big value of 80%, compared to the percentage of people who got covid-19 after taking the vaccine (20%). Of the gays that were okay, 48% of the gays who took the placebo were fine, and 52% of the gays who took the vaccine were fine. This shows that the covid-19 vaccine is effective in gays, if only 20% of the people who took the vaccine got covid-19 because it is a really low value. People who took the placebo got covid-19 a lot more. This is very significant.
 
+
+### Inferential Results 
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+gaysfish <- fisher.test(table1)
+gaysfish
+```
+
 ## Druggies
 
 
