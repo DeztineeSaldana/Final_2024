@@ -203,6 +203,13 @@ basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
+This plot shows the population of gay people and the relationship between catching Covid, whether or not they took the vaccine or had a placebo. 
+
+The first graph shows the counts of the people who got covid or if they were okay and if they took the placebo or not. The second graph shows the percentage of people who had the placebo or the covid-19 vaccine and whether if they had covid or not. They are all split up in groups by if they got covid-19 or not and if they had the placebo or the Covid-19 vaccine. 
+
+Of the gay people who caught Covid-19, the people who took the placebo were plot as a very big bar being approximately around 80% and the people who had the vaccine were significantly small, being approximately around 20%. Of the people who were OK, it was about 48% people who took the placebo vs. 52% for the people who had the vaccine. This shows that for gay people, the people who took the placebo catched covid way more easier than the people who were vaccinated. 
+
+The codes that were used to create this barplot start with the code block that begins with dd2. dd2 appars to be seen where the environment pane and it contains 4 variables. These variables include treatment, infected, count, and prcent(which stands for percent). The second group is named the basicC. It is visible in the environment area and it contains a list of 11 variables. This is in order to create the first plot. The basicCC is the last group of codes and it is also in the files pane. It contains 11 variables that are helpful when creating the percentage plot, which is the second plot. 
 
 ## Druggies
 
