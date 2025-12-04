@@ -88,6 +88,21 @@ This means that the null hypothesis that being infected with covid-19 is indepen
 
 The odds ratio is 2.815604. This means that the people who took the placebo were almost 3 times more likely to get covid-19 than people who took the vaccine. This is very significant. It also shows that the vaccine is more than likely effective. 
 
+
+```{r}
+effect <- Msfish$p.value/(Msfish$p.value +1)
+effectivenessM = Msfish$estimate/(Msfish$estimate +1)*100
+print(effectivenessM)
+```
+
+```{r}
+low=(Msfish$conf.int[1]/(Msfish$conf.int[1] +1))*100
+hi=(Msfish$conf.int[2]/(Msfish$conf.int[2] +1))*100
+options(digits=2)
+```
+
+## Effectiveness Confidence Interval `r low`  to `r hi`
+
 ## Females
 
 
