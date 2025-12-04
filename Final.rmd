@@ -137,6 +137,16 @@ In this plot, it shows that around 65% of females who contracted covid had the p
 The codes that were used to create this barplot start with the code block that begins with dd2. dd2 appars to be seen where the environment pane and it contains 4 variables. These variables include treatment, infected, count, and prcent(which stands for percent). The second group is named the basicC. It is visible in the environment area and it contains a list of 11 variables. This is in order to create the first plot. The basicCC is the last group of codes and it is also in the files pane. It contains 11 variables that are helpful when creating the percentage plot, which is the second plot. 
 
 
+### Numerical results 
+
+```{r}
+table1 <- xtabs(~infected + treatment, data=F)
+rowPerc(table1)
+colPerc(table1)
+```
+
+
+
 ## LGBTQ
 
 
